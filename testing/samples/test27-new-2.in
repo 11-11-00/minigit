@@ -1,0 +1,15 @@
+> init
+<<<
++ h.txt wug2.txt
+> add h.txt
+<<<
+>commit "added h"
+<<<
++ h.txt wug.txt
+> add h.txt
+<<<
+>commit "added h"
+<<<
+> checkout -- h.txt
+<<<
+= h.txt wug.txt
